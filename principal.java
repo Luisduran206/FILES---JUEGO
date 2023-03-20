@@ -355,6 +355,6 @@ public class principal extends Persona{
 			wins = wins;
 		}
 		PruebaFile docs = new PruebaFile(usuario, wins, losses, games);
-		docs.crear();
+		docs.crear(usuario, wins, losses);
    }
 }
